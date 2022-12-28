@@ -11,9 +11,6 @@ function Cards(props) {
         setNumOfLikes(numOfLikes+1);
         props.Totall_ikes();
     }
-
-
-
     return (
         <Col>
             <Card style={{ width: '18rem',height:'20rem' }}>
